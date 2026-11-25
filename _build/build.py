@@ -3,7 +3,7 @@
 import json, pathlib, html
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs"
-V = "7"                                  # bump to bust the CSS/JS cache
+V = "8"                                  # bump to bust the CSS/JS cache
 BASE = "https://welcometothenextlevel.github.io/iceberg/"
 NOINDEX = True                           # flip to False once live on iceberg-sarl.ch
 
